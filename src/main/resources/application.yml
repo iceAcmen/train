@@ -1,0 +1,21 @@
+swagger:
+  basePackage: com.maxrocky.train.controller
+  title: maxrocky demo项目
+  description: maxrocky demo项目详细描述文档
+  version: v1.0
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///icedb?characterEncoding=utf8&useSSL=false
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    #Mapper所在的包
+    com.maxrocky.train.repository: debug

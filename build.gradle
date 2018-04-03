@@ -30,6 +30,7 @@ dependencies {
             //lombok
             'org.projectlombok:lombok:1.16.18',
             //jackson datatype java8补丁，匹配localdatetime
+
             'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.4',
             //分页
             'com.github.pagehelper:pagehelper:4.1.0',

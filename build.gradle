@@ -38,7 +38,7 @@ dependencies {
             'io.springfox:springfox-swagger-ui:2.8.0',
             //mysql
             'mysql:mysql-connector-java',
-			//参数校验(已存在，不需要再配置。)
+			//参数校验(springboot起步依赖中已存在，不需要再配置。)
 			//'org.hibernate:hibernate-validator:5.3.5.Final'
 	)
 
